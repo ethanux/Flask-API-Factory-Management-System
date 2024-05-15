@@ -113,14 +113,15 @@ This route allows visualization of data.
     Request Method: POST or GET
     Authorization: Token required
     Request Body (POST):
-
+    - **time format**
+        -  ( %Y-%M-%D %H:%M:%S.%f ) ( 2024-05-07 20:21:1.0 ) 
     - **request json**
 
     {
         "device_name": "device_name",
         "parameter_name": "parameter_name",
-        "start_time": "start_time",         - time format ( %Y-%M-%D %H:%M:%S.%f ) ( 2024-05-07 20:21:1.0 ) 
-        "end_time": "end_time",				- time format ( %Y-%M-%D %H:%M:%S.%f ) ( 2024-05-07 20:21:1.0 )
+        "start_time": "start_time",         
+        "end_time": "end_time",				
         "token": "token_here"
     }
 
