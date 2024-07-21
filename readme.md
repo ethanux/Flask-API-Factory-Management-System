@@ -1,4 +1,4 @@
-This API provides endpoints for loading data into a database, visualizing data, and retrieving information about devices and their parameters.
+Factory Management API provides endpoints for loading data into a database, visualizing data, and retrieving information about devices and their parameters.
 
 ## Setup
 
